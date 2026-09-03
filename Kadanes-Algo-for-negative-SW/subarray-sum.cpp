@@ -8,7 +8,7 @@ int main(){
     int ans=arr[0];
     int n = sizeof(arr)/sizeof(arr[0]);
 
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         int v1 = best_ending+arr[i];
         int v2 = arr[i];
         best_ending= max(v1,v2);
